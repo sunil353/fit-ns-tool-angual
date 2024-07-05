@@ -11,13 +11,6 @@ import { User } from './User';
 })
 export class FitNSToolService {
 
-  //private api="http://localhost:7171/getProducts";
- // constructor() { }
-
-  // public doRegistrationPage(signUp: Object) : Observable<Object>{
-  //   return this.http.post(`${this.apiUrl}`, signUp,{responseType:'text' as 'json'});
-  // }
-
   
   private productUrl = "http://localhost:7171/getProducts";
 
