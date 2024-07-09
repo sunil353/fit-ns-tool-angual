@@ -32,20 +32,20 @@ export class FitNSToolService {
   //    return this.http.post("http://localhost:9191/rest/addEmployee", user, {responseType : 'text' as 'json'});
   // }
  
-  // getProducts() {
-  //   //return this.http.get(`${this.api}`);
-  //   [{ 
-  //     prodId : 1051,
-  //     prodName : "KELVIN",
-  //     prodPrice : 100000,
-  //     prodDelivery  : "Bangalore"
-  //   },
-  //   {
-  //     prodId: 1123,
-  //     prodName : "STOKE",
-  //     prodPrice : 200000,
-  //     prodDelivery : "Hyderbad"
-  //   }
-  //   ];
-  // }
+  getProdNames() {
+    //return this.http.get(`${this.api}`);
+    [{ 
+      prodId : 1051,
+      prodName : "KELVIN",
+      prodPrice : 100000,
+      prodDelivery  : "Bangalore"
+    },
+    {
+      prodId: 1123,
+      prodName : "STOKE",
+      prodPrice : 200000,
+      prodDelivery : "Hyderbad"
+    }
+    ];
+  }
 }
