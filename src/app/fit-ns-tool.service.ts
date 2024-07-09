@@ -33,7 +33,6 @@ export class FitNSToolService {
   // }
  
   getProdNames() {
-    //return this.http.get(`${this.api}`);
     [{ 
       prodId : 1051,
       prodName : "KELVIN",
@@ -45,7 +44,6 @@ export class FitNSToolService {
       prodName : "STOKE",
       prodPrice : 200000,
       prodDelivery : "Hyderbad"
-    }
-    ];
+    }];
   }
 }
